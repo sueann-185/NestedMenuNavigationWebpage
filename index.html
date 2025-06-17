@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Menu Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nested Menu Navigation</h1>
+            <p class="subtitle">Explore various academic subjects and their topics</p>
+            <!-- Student Information Section -->
+            <div class="student-info">
+                <p><strong>Name:</strong> Peiyao Xiao</p>
+                <p><strong>Course Name:</strong> COP4813-0003</p>
+                <p><strong>Major:</strong> PC</p>
+            </div>
+        </header>
+        
+        <div class="subjects-container">
+            <!-- Mathematics Subject -->
+            <div class="subject-card" data-subject="math">
+                <div class="subject-header">
+                    <img class="subject-icon" src="math/math.jpg">
+                    <h2 class="subject-title">Mathematics</h2>
+                </div>
+                <div class="topics-container">
+                    <div class="topic-item">
+                        <a href="math/algebra.html" class="topic-link">Algebra</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="math/geometry.html" class="topic-link">Geometry</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="math/calculus.html" class="topic-link">Calculus</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="math/statistics.html" class="topic-link">Statistics</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Science Subject -->
+            <div class="subject-card" data-subject="science">
+                <div class="subject-header">
+                    <img class="subject-icon" src="science/science.jpg">
+                    <h2 class="subject-title">Science</h2>
+                </div>
+                <div class="topics-container">
+                    <div class="topic-item">
+                        <a href="science/physics.html" class="topic-link">Physics</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="science/chemistry.html" class="topic-link">Chemistry</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="science/biology.html" class="topic-link">Biology</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="science/astronomy.html" class="topic-link">Astronomy</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- History Subject -->
+            <div class="subject-card" data-subject="history">
+                <div class="subject-header">
+                    <img class="subject-icon" src="history/history.jpg">
+                    <h2 class="subject-title">History</h2>
+                </div>
+                <div class="topics-container">
+                    <div class="topic-item">
+                        <a href="history/ancient.html" class="topic-link">Ancient History</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="history/medieval.html" class="topic-link">Medieval History</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="history/modern.html" class="topic-link">Modern History</a>
+                    </div>
+                    <div class="topic-item">
+                        <a href="history/cultural.html" class="topic-link">Cultural History</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 Nested Menu Navigation</p>
+        </footer>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
